@@ -1,0 +1,52 @@
+/************ TAG SELECTORS *************/
+
+body {
+  background-color: #9bdeac;
+}
+
+hr {
+  border-color: #42b883;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: thick;
+}
+
+h1 {
+  color: #06623b;
+  text-shadow: 2px 2px 5px #42b883;
+  font-family: 'Rye', cursive;
+}
+
+h3 {
+  color: #06623b;
+  font-family: 'Bungee Inline', cursive;
+}
+
+th {
+  color:seagreen;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+th:hover {
+  color: #394989;
+}
+
+ul :hover {
+  color: #24a19c;
+}
+
+/************ CLASS SELECTORS *************/
+
+.para:hover {
+  color: #24a19c;
+}
+
+/************ ID SELECTORS *************/
+
+#h:hover {
+  border-color: #42b883;
+  border-style: none;
+  border-bottom-style: dotted;
+  border-width: medium;
+  width: 30%;
+}
